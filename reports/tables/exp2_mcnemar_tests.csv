@@ -1,0 +1,5 @@
+champion,versus,a_right_b_wrong,a_wrong_b_right,chi2,p_value
+XGBoost,Logistic Regression,210,20,155.3087,0.0
+XGBoost,Random Forest,18,8,3.11538,0.07756
+XGBoost,MLP,30,9,10.25641,0.00136
+XGBoost,LSTM,63,15,28.32051,0.0

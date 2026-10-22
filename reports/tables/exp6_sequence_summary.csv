@@ -1,0 +1,6 @@
+model,setting,pr_auc_mean,pr_auc_std,roc_auc_mean,f1_mean,recall_mean,precision_mean
+MLP,current transaction only (T2),0.9399,0.0032,0.9623,0.9145,0.8564,0.9809
+MLP,current + history aggregates (T2H),0.9371,0.0008,0.9591,0.9092,0.854,0.9723
+LSTM,sequence length 1 (no history),0.9395,0.0002,0.9599,0.9187,0.862,0.9834
+LSTM,"last 5 transactions, ordered",0.9331,0.0028,0.955,0.9021,0.8471,0.9651
+LSTM,"last 5 transactions, history shuffled",0.9295,0.0027,0.9533,0.8983,0.8339,0.9737
